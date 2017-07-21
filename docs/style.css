@@ -98,6 +98,7 @@ blockquote span{
 	font-size:18px;
 	text-transform:uppercase;
 	line-height:30px;
+	margin-bottom: 10px;
 }
 .videocontainer{
 	max-width:100%; 
@@ -702,6 +703,7 @@ overflow: scroll;
 padding:0 0 15px 0;
 margin:0px;
 clear:both;
+text-indent:2em;
 }
 #pages_maincontent img{
 display:block;
@@ -776,7 +778,7 @@ text-align:left;
 .swiper-slide img{
 width:100%;
 display:block;
-opacity:0.7;
+/**opacity:0.7;**/
 }
 .toolbar-icon a{
 display:block;
@@ -2555,7 +2557,7 @@ padding:0px;
 max-width:60%;
 }
 .swiper-container {
-height:60%;
+height:40%;
 }
 }
 /* -----------------MOBILE---------------- */
@@ -2685,7 +2687,7 @@ padding:0px 5px;
 max-width:100%;
 }
 .swiper-container {
-height:380px;
+height:200px;
 }
 }
 /* -----------------SMALLER MOBILE---------------- */
@@ -2694,4 +2696,17 @@ height:380px;
 width:10%;
 padding:0px 3px;
 }
+}
+/*  -------------- 自定义 ------------------------  */
+.item-title{
+	color: #51add2;
+}
+.list-block .item-text{
+	color: #000;
+	overflow: auto;
+	height: auto;
+	-webkit-line-clamp: 10;
+}
+.list-block.media-list .item-link .item-title-row{
+	background-image: none;
 }
