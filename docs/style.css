@@ -2698,15 +2698,15 @@ padding:0px 3px;
 }
 }
 /*  -------------- 自定义 ------------------------  */
-.item-title{
+.normal_list_title{
 	color: #51add2;
 }
-.list-block .item-text{
+.list-block .normal_list_text{
 	color: #000;
 	overflow: auto;
 	height: auto;
 	-webkit-line-clamp: 10;
 }
-.list-block.media-list .item-link .item-title-row{
+.list-block.media-list .item-link .normal_list_row{
 	background-image: none;
 }
