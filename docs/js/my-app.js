@@ -213,6 +213,26 @@ myApp.onPageInit('photos', function(page) {
         }
 
     });
+
+    var active_des = page.query;
+    if (active_des != null) {
+        if (active_des.active == "call_number")
+            myApp.showTab('#tab_call_number');
+        else if (active_des.active == "steps")
+            myApp.showTab('#tab_call_steps');
+        else if (active_des.active == "front")
+            myApp.showTab('#tab_call_front');
+        else if (active_des.active == "menu")
+            myApp.showTab('#tab_call_menu');
+        else if (active_des.active == "cancel")
+            myApp.showTab('#tab_call_cancel');  
+        else if (active_des.active == "chef")
+            myApp.showTab('#tab_call_chef');
+        else if (active_des.active == "pay")
+            myApp.showTab('#tab_call_pay');      
+        else if (active_des.active == "scene")
+            myApp.showTab('#tab_call_scene');                                                        
+    }    
 })
 
 myApp.onPageInit('files', function(page) {
