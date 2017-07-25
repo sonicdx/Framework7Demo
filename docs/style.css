@@ -1292,7 +1292,7 @@ ul.features_list_detailed li .feat_small_details h4 {
 
 .team-block {
     width: 46%;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
     text-align: center;
     padding: 20px 0 0 0;
 }
@@ -1300,7 +1300,7 @@ ul.features_list_detailed li .feat_small_details h4 {
 .team-block a img {
     display: block;
     width: 50%;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin: auto;
 }
 
