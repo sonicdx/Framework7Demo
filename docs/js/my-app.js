@@ -247,3 +247,8 @@ myApp.onPageInit('files', function(page) {
     };
 
 });
+
+myApp.onPageInit('acitons-video', function(page) {
+    plyr.setup();
+});
+

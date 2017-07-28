@@ -1,10 +1,10 @@
 /*==============================================
 [Main stylesheet style.css]
-Author:	SINDEVO.COM - Smart Interface Development
-Version:	1.0
-Created:	14 January 2017
-Last updated:	14 January 2017
-Template:	UpMobile - Mobile HTML Template
+Author: SINDEVO.COM - Smart Interface Development
+Version:    1.0
+Created:    14 January 2017
+Last updated:   14 January 2017
+Template:   UpMobile - Mobile HTML Template
 ================================================*/
 
 
@@ -41,17 +41,20 @@ Template:	UpMobile - Mobile HTML Template
 /*===============================================*/
 
 
-/* 1. RESET		 						 */
+/* 1. RESET                              */
 
 
 /*===============================================*/
 
 @import "css/reset.css";
 
+
+
+
 /*===============================================*/
 
 
-/* 2. GENERAL		 						 */
+/* 2. GENERAL                                */
 
 
 /*===============================================*/
@@ -133,10 +136,13 @@ blockquote span {
 }
 
 
+
+
+
 /*===============================================*/
 
 
-/* 3. H TITLES		 						 */
+/* 3. H TITLES                               */
 
 
 /*===============================================*/
@@ -228,6 +234,9 @@ a.backtoshop img {
 }
 
 
+
+
+
 /*===============================================*/
 
 
@@ -272,6 +281,9 @@ a.backtoshop img {
 }
 
 
+
+
+
 /* HEADER LEFT */
 
 .navbar_left {
@@ -308,6 +320,9 @@ a.backtoshop img {
 }
 
 
+
+
+
 /* HEADER CENTER */
 
 .navbar_center {
@@ -331,6 +346,9 @@ a.backtoshop img {
 }
 
 
+
+
+
 /* HEADER RIGHT */
 
 .navbar_right {
@@ -346,6 +364,9 @@ a.backtoshop img {
     max-width: 40%;
     padding: 20px 0 0 0;
 }
+
+
+
 
 
 /*===============================================*/
@@ -422,6 +443,9 @@ a.button_small {
 }
 
 
+
+
+
 /*===============================================*/
 
 
@@ -466,6 +490,9 @@ a.button_small {
 .panel-right {
     background-color: #10cf7f;
 }
+
+
+
 
 
 /* 6-1. USER ACCOUNT SIDEBAR RIGHT */
@@ -607,6 +634,9 @@ a.button_small {
 }
 
 
+
+
+
 /* 6-2. SIDEBAR NAVIGATION - LEFT */
 
 .sidebar-nav {
@@ -665,6 +695,9 @@ a.button_small {
     font-weight: 300;
     color: #fff;
 }
+
+
+
 
 
 /* 6-2. MAIN NAVIGATION */
@@ -740,6 +773,9 @@ a.button_small {
     font-weight: 300;
     font-size: 16px;
 }
+
+
+
 
 
 /*5-2. FOOTER TOOLBAR */
@@ -829,6 +865,9 @@ ul.toolbar_icons li.menuicon img {
 }
 
 
+
+
+
 /*===============================================*/
 
 
@@ -896,6 +935,9 @@ ul.toolbar_icons li.menuicon img {
     clear: both;
     padding: 0 0 50px 0;
 }
+
+
+
 
 
 /* 7-1. SWIPE SLIDER */
@@ -1114,6 +1156,9 @@ a.swiper_read_more {
 }
 
 
+
+
+
 /* 7-2. FEATURED LISTS */
 
 
@@ -1165,6 +1210,9 @@ ul.features_list li span {
 }
 
 
+
+
+
 /* Style block */
 
 ul.features_list_block {
@@ -1211,6 +1259,9 @@ ul.features_list_block li span {
     font-size: 12px;
     text-align: center;
 }
+
+
+
 
 
 /* Style detailed */
@@ -1288,6 +1339,9 @@ ul.features_list_detailed li .feat_small_details h4 {
 }
 
 
+
+
+
 /* 7-3. TEAM DESIGN LAYOUT */
 
 .team-block {
@@ -1343,6 +1397,9 @@ ul.team_socials li a img {
     border-radius: 0px;
     margin: auto;
 }
+
+
+
 
 
 /* 7-4. MUSIC LIST DESIGN LAYOUT */
@@ -1406,6 +1463,9 @@ ul.music_list li h4 span {
     margin: 0px;
     line-height: 30px;
 }
+
+
+
 
 
 /*===============================================*/
@@ -1496,6 +1556,9 @@ ul.social_share li a {
     max-width: 60%;
     margin: auto;
 }
+
+
+
 
 
 /*===============================================*/
@@ -1635,6 +1698,9 @@ a.prev_shop {
 a.next_shop {
     float: right;
 }
+
+
+
 
 
 /* 9-1. SHOP ITEM PAGE */
@@ -1800,6 +1866,9 @@ a.next_shop {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+
+
 
 
 /* 9-2. SHOPPING CART - CECKOUT */
@@ -2072,6 +2141,9 @@ a.checkout {
 }
 
 
+
+
+
 /* 9-3. SUCCESS PAGE */
 
 .success_message {
@@ -2098,6 +2170,9 @@ a.checkout {
 .success_message p {
     line-height: 35px;
 }
+
+
+
 
 
 /*===============================================*/
@@ -2229,6 +2304,9 @@ ul.photo_gallery_11 li img {
     background-color: #12d584;
     color: #ffffff;
 }
+
+
+
 
 
 /*===============================================*/
@@ -2457,6 +2535,9 @@ ul.comments li {
 }
 
 
+
+
+
 /*===============================================*/
 
 
@@ -2595,6 +2676,9 @@ a.signup_twitter {
 }
 
 
+
+
+
 /* 12.2 CONTACT FORM */
 
 .contactform {
@@ -2635,6 +2719,9 @@ a.signup_twitter {
     background-color: #fff;
     -webkit-appearance: none;
 }
+
+
+
 
 
 /* --------Custom select input----------- */
@@ -2816,6 +2903,9 @@ div.cs-skin-overlay {
 }
 
 
+
+
+
 /* ------------- */
 
 .contactform .item-content {
@@ -2868,6 +2958,9 @@ div.cs-skin-overlay {
 h2#Note {
     display: none;
 }
+
+
+
 
 
 /*===============================================*/
@@ -2940,6 +3033,9 @@ h2#Note {
 .custom-accordion .accordion-item-content {
     padding: 0px 15px;
 }
+
+
+
 
 
 /* TABLES */
@@ -3015,6 +3111,9 @@ ul.responsive_table li:first-child {
 }
 
 
+
+
+
 /*===============================================*/
 
 
@@ -3042,6 +3141,9 @@ ul.responsive_table li:first-child {
         max-width: 60%;
     }
 }
+
+
+
 
 
 /* -------------TABLET PORTRAIT--------- */
@@ -3110,6 +3212,9 @@ ul.responsive_table li:first-child {
         height: 40%;
     }
 }
+
+
+
 
 
 /* -----------------MOBILE---------------- */
@@ -3215,6 +3320,9 @@ ul.responsive_table li:first-child {
 }
 
 
+
+
+
 /* -----------------SMALL MOBILE---------------- */
 
 @media screen and (max-width: 470px) {
@@ -3236,6 +3344,9 @@ ul.responsive_table li:first-child {
 }
 
 
+
+
+
 /* -----------------SMALLER MOBILE---------------- */
 
 @media screen and (max-width: 360px) {
@@ -3244,6 +3355,9 @@ ul.responsive_table li:first-child {
         padding: 0px 3px;
     }
 }
+
+
+
 
 
 /*  -------------- 自定义 ------------------------  */
@@ -3297,7 +3411,7 @@ ul.responsive_table li:first-child {
 
 .action-list ul li span {
     display: block;
-    color:black;
+    color: black;
     font-size: 1.2em;
     padding: 10px 0 0 0;
 }
@@ -3307,4 +3421,77 @@ ul.responsive_table li:first-child {
     font-weight: 700;
     color: #ffffff;
     letter-spacing: 0.5px;
+}
+
+.actions_video {
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blog_q_title {
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    border-left: 1em solid red;
+    border-bottom: 1px solid red;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+ 
+.blog_q_block {
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 25px;
+}
+
+.blog_a_title {
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    background-color: #7B94A0;
+    line-height: 1.5em;
+}
+
+ 
+.blog_a_block {
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 25px;
+    color: white;
+    background-color: #7B94A0;    
+}
+
+.rounded-list {
+    counter-reset: section; 
+}
+
+.rounded-list li::before {
+
+    content: counter(section);
+    counter-increment: section;
+
+    position: absolute;
+    font-size: 0.7em;
+    left: -0.5em;
+    background: #87ceeb;
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+    border: 0.2em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
