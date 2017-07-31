@@ -3495,3 +3495,28 @@ ul.responsive_table li:first-child {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
+.list-block .item-null-inner:after {
+  content: none;
+}
+
+.list-block .item-context-empty
+{
+    padding-bottom: 10px;
+}
+
+.list-block .item-context-empty:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #c8c7cc;
+  display: block;
+  z-index: 15;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
