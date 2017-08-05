@@ -3080,6 +3080,19 @@ li.table_row {
     display: block;
 }
 
+.table_section_15 {
+    float: left;
+    padding: 0 0 0 2%;
+    text-align: center;
+    display: block;
+    background-color: #d8ffe4;
+}
+
+.table_section_15 p {
+    text-indent: 1em !important; 
+    text-align:left;
+}
+
 .table_section_14 img {
     display: inline-block;
     text-align: center;

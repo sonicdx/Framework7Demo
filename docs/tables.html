@@ -1,95 +1,73 @@
 <div class="pages">
-  <div data-page="tables" class="page no-toolbar no-navbar">
-    <div class="page-content">
-    
-	<div class="navbarpages">
-		<div class="navbar_left">
-			<div class="logo_text"><a href="index.html"><span>易顺</span>科技</a></div>
-		</div>			
-		<a href="#" data-panel="left" class="open-panel">
-			<div class="navbar_right"><img src="images/icons/green/menu.png" alt="" title="" /></div>
-		</a>					
-	</div>
-     
-     <div id="pages_maincontent">
-     
-              <h2 class="page_title">人力成本比较</h2> 
-     
-     <div class="page_single layout_fullwidth_padding">
-              
-                <h3>以800平米营业面积的中餐正餐餐厅为例</h3>
-              
-                <ul class="responsive_table">
-                     <li class="table_row">
-                        <div class="table_section_14">&nbsp;</div>
-                        <div class="table_section_14">易顺智慧餐厅</div>
-                        <div class="table_section_14">其他智慧餐厅</div>
-                        <div class="table_section_14">传统收银软件</div>  
-                     </li>
+    <div data-page="tables" class="page no-toolbar no-navbar">
+        <div class="page-content">
+            <div class="navbarpages">
+                <div class="navbar_left">
+                    <div class="logo_text"><a href="index.html"><span>易顺</span>科技</a></div>
+                </div>
+                <a href="#" data-panel="left" class="open-panel">
+                    <div class="navbar_right"><img src="images/icons/green/menu.png" alt="" title="" /></div>
+                </a>
+            </div>
+            <div id="pages_maincontent">
+                <h2 class="page_title">人力成本比较</h2>
+                <div class="page_single layout_fullwidth_padding">
+                    <h3>以800平米营业面积的中餐正餐餐厅为例</h3>
+                    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+                    <div id="table_chart_front" style="width: 100%;height:400px;"></div>
+                    <h3 class="page_title">智慧餐厅前厅</h2>
+                    <ul class="responsive_table">
+                        <li class="table_row">
+                            <div class="table_section_14">岗位/用工量</div>
+                            <div class="table_section_14" style="float: right;">用工量</div>
+                        </li>
 
-                     <li class="table_row">
-                        <div class="table_section_14">收银人员</div>
-                        <div class="table_section_14">1人</div>
-                        <div class="table_section_14">1人</div> 
-                        <div class="table_section_14">1人</div> 
-                     </li>
-                     <li class="table_row">
-                        <div class="table_section_14">&nbsp;</div>
-                        <div class="table_section_14">外送自动接单，微信自助点单，买单。 移动POS去收银中心化。</div>
-                        <div class="table_section_14">外送自动接单，微信自助点单，买单。扫码支付通过手机完成。刷卡支付依然需要收银完成。 </div> 
-                        <div class="table_section_14">外送人工输单，收银中心化模式使收银工作变成餐厅效率提高的瓶颈。 </div> 
-                     </li>
+                        <li class="table_row">
+                            <div class="table_section_14">收银人员</div>
+                            <div class="table_section_14" style="float: right;">1人</div>
+                        </li>
+                        <li class="table_section_15">
+                              <p>1)收银系统自动接单,厨房生产不分堂吃,外送.生产完毕通过厨房屏幕决定打包还是装盘,传菜部统一打包送至收银台交与外送员。</p>
+                              <p>2)一人负责打印发票,发放外送菜品,营业交班就可以了。</p>
+                              <p>3)客人扫码买单可减轻30%-38%买单工作量,服务员移动POS扫码,刷卡买单可减轻40%工作量,收银台自动结账,收银只需要完成20%的现金收银工作。</p>
+                        </li>
 
-                      <li class="table_row">
-                        <div class="table_section_14">迎宾人员</div>
-                        <div class="table_section_14">1人</div>
-                        <div class="table_section_14">2人</div> 
-                        <div class="table_section_14">2人</div> 
-                     </li>
-                     <li class="table_row">
-                        <div class="table_section_14">&nbsp;</div>
-                        <div class="table_section_14">一人通过移动POS及时掌控排队与餐位状态并与服务员互动完成领位。</div>
-                        <div class="table_section_14">独立排队软件依然需要巡台迎宾配合通过对讲机完成餐位状态信息交换。 </div> 
-                        <div class="table_section_14">餐厅需要两人通过对讲机互动完成领位。 </div> 
-                     </li>
-
-                      <li class="table_row">
-                        <div class="table_section_14">服务员</div>
-                        <div class="table_section_14">6人</div>
-                        <div class="table_section_14">7人</div> 
-                        <div class="table_section_14">8人</div> 
-                     </li>
-                     <li class="table_row">
-                        <div class="table_section_14">&nbsp;</div>
-                        <div class="table_section_14">微信自助下单，买单减少用工量。移动POS去收银中心化在区域就能完成全部工作。</div>
-                        <div class="table_section_14">微信自助下单，买单减少用工量。手机下单，扫码支付减轻了部分工作量。刷卡买单仍然要到收银台。</div> 
-                        <div class="table_section_14">下单，送单，买单，需要服务员全程参与完成。</div> 
-                     </li>     
+                        <li class="table_row">
+                            <div class="table_section_14">迎宾人员</div>
+                            <div class="table_section_14" style="float: right;">1人</div>
+                        </li>
+                        <li class="table_section_15">
+                              <p>1)智慧迎宾将预定,现场排队和迎宾控台通过移动POS终端将流程无缝对接。</p>
+                              <p>2)只需一个迎客迎客迎宾和服务员配合既可完成控台,清台。</p>
+                        </li>
 
 
-                    <li class="table_row">
-                        <div class="table_section_14">合计用工量</div>
-                        <div class="table_section_14">8人</div>
-                        <div class="table_section_14">10人</div> 
-                        <div class="table_section_14">12人</div> 
-                    </li>
+                        <li class="table_row">
+                            <div class="table_section_14">服务员</div>
+                            <div class="table_section_14" style="float: right;">6人</div>
+                        </li>
+                        <li class="table_section_15">
+                              <p>1)微信下单，扫码买单减少30%的点单,买单用工量。</p>
+                              <p>2)小票打印,扫码买单,储值卡支付,刷卡买单一台移动POS完成,方便切换各种买单方式,服务员基本不需要离开服务区域。</p>
+                              <p>3)催菜,起叫,退菜,沽清等操作通移动POS和厨房触屏进行信息交互,厨房,收银,区域实时同步,服务员不需要频繁离开区域。</p>
+                              <p>4)一个服务员控台数由4-5台提高到8-10台。</p>
+                        </li>
 
-                     <li class="table_row">
-                        <div class="table_section_14"><strong>成本比较</strong></div>
-                        <div class="table_section_14"><strong>0</strong></div>
-                        <div class="table_section_14"><strong>+176400</strong></div> 
-                        <div class="table_section_14"><strong>+235200</strong></div> 
-                     </li>
-                </ul>
-              
-			    <p>计算依据：&nbsp;收银人员&nbsp;4900/人工；迎宾人员&nbsp;4900/人工;服务员:4500/人工</p>
-              
-              
-              </div>
-      
-      </div>
-      
-      
+                        <li class="table_row">
+                            <div class="table_section_14">管理人员</div>
+                            <div class="table_section_14" style="float: right;">1人</div>
+                        </li>
+                        <li class="table_section_15">
+                              <p>1)前厅管理人员移动POS,厨房通过屏幕实时查看催菜,叫单,退菜,赠品信息及时沟通处理,避免客人频繁投诉,不要需要大量的安抚客人的工作。</p>
+                              <p>2)生产统计数据让前厅厨房责任明确清晰, 餐厅管理者大量时间用于提高餐厅服务水平和产品品质。</p>
+                        </li>                                                    
+                    </ul>
+
+                    <!--
+                    <p>计算依据：&nbsp;收银人员&nbsp;4900/人工；迎宾人员&nbsp;4900/人工;服务员:4500/人工</p>
+                    -->
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

@@ -225,14 +225,14 @@ myApp.onPageInit('photos', function(page) {
         else if (active_des.active == "menu")
             myApp.showTab('#tab_call_menu');
         else if (active_des.active == "cancel")
-            myApp.showTab('#tab_call_cancel');  
+            myApp.showTab('#tab_call_cancel');
         else if (active_des.active == "chef")
             myApp.showTab('#tab_call_chef');
         else if (active_des.active == "pay")
-            myApp.showTab('#tab_call_pay');      
+            myApp.showTab('#tab_call_pay');
         else if (active_des.active == "scene")
-            myApp.showTab('#tab_call_scene');                                                        
-    }    
+            myApp.showTab('#tab_call_scene');
+    }
 })
 
 myApp.onPageInit('files', function(page) {
@@ -248,7 +248,48 @@ myApp.onPageInit('files', function(page) {
 
 });
 
+myApp.onPageInit('tables', function(page) {
+
+
+    var option = {
+        title: {
+            text: '用工量'
+        },
+        tooltip: {},
+        legend: {
+            data: ['易顺', '其他', '传统']
+        },
+        xAxis: {
+            data: ["收银人员", "迎宾人员", "服务员", "管理人员"]
+        },
+        yAxis: {},
+        series: [{
+                name: '易顺',
+                type: 'bar',
+                data: [1, 1, 6, 1]
+            },
+            {
+                name: '其他',
+                type: 'bar',
+                data: [1, 2, 8, 2]
+            },
+            {
+                name: '传统',
+                type: 'bar',
+                data: [2, 2, 9, 2]
+            }
+        ]
+    };
+
+    $(document).ready(function() {
+        var myChart = echarts.init(document.getElementById('table_chart_front'));
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    });
+
+
+});
+
 myApp.onPageInit('acitons-video', function(page) {
     plyr.setup();
 });
-
