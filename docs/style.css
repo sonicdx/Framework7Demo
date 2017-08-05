@@ -3081,11 +3081,14 @@ li.table_row {
 }
 
 .table_section_15 {
+    width: 100%;
     float: left;
-    padding: 0 0 0 2%;
-    text-align: center;
-    display: block;
-    background-color: #d8ffe4;
+    clear: both;
+    line-height: 30px;
+    padding: 0px;
+    list-style: none;
+    margin: 0 0 1px 0;
+    background-color: #d8ffe4;    
 }
 
 .table_section_15 p {
