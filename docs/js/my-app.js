@@ -281,10 +281,57 @@ myApp.onPageInit('tables', function(page) {
         ]
     };
 
+
+    var option_cost = {
+        title: {
+            text: '人工成本'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data: ['易顺', '其他', '传统']
+        },
+        radar: [{
+            indicator: [
+                { name: '收银人员' },
+                { name: '迎宾人员' },
+                { name: '服务员' },
+                { name: '管理人员' }
+            ],
+            axisLabel: {
+                show: false,
+                textStyle: {
+                    color: 'rgb(0,0,0)'
+                }
+            },
+            radius:90
+        }],
+        series: [{
+            type: 'radar',
+            data: [{
+                    name: '易顺',
+                    value: [5400 * 12 * 1, 5400 * 12 * 1, 5200 * 12 * 6, 8600 * 12 * 1]
+                },
+                {
+                    name: '其他',
+                    value: [5400 * 12 * 1, 5400 * 12 * 2, 5200 * 12 * 8, 8600 * 12 * 2]
+                },
+                {
+                    name: '传统',
+                    value: [5400 * 12 * 2, 5400 * 12 * 2, 5200 * 12 * 9, 8600 * 12 * 2]
+                }
+            ]
+        }]
+    };
+
     $(document).ready(function() {
         var myChart = echarts.init(document.getElementById('table_chart_front'));
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
+
+        var myChart_cost = echarts.init(document.getElementById('table_chart_const'));
+        myChart_cost.setOption(option_cost);
     });
 
 
