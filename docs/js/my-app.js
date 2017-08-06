@@ -67,18 +67,18 @@ myApp.onPageInit('contact', function(page) {
 })
 myApp.onPageInit('blog', function(page) {
 
-    $(".post_entry").hide();
-    size_li = $(".post_entry").size();
-    x = 4;
-    $('.post_entry:lt(' + x + ')').show();
-    $('#loadMore').on('click', function() {
-        x = (x + 1 <= size_li) ? x + 1 : size_li;
-        $('.post_entry:lt(' + x + ')').show();
-        if (x === size_li) {
-            $('#loadMore').hide();
-            $('#showLess').show();
-        }
-    });
+    // $(".post_entry").hide();
+    // size_li = $(".post_entry").size();
+    // x = 4;
+    // $('.post_entry:lt(' + x + ')').show();
+    // $('#loadMore').on('click', function() {
+    //     x = (x + 1 <= size_li) ? x + 1 : size_li;
+    //     $('.post_entry:lt(' + x + ')').show();
+    //     if (x === size_li) {
+    //         $('#loadMore').hide();
+    //         $('#showLess').show();
+    //     }
+    // });
 
 })
 
@@ -248,9 +248,15 @@ myApp.onPageInit('files', function(page) {
 
 });
 
+
 myApp.onPageInit('tables', function(page) {
 
 
+
+
+});
+
+myApp.onPageAfterAnimation('tables', function(page) {
     var option = {
         title: {
             text: '用工量'
@@ -305,7 +311,7 @@ myApp.onPageInit('tables', function(page) {
                     color: 'rgb(0,0,0)'
                 }
             },
-            radius:90
+            radius: 90
         }],
         series: [{
             type: 'radar',
@@ -325,18 +331,16 @@ myApp.onPageInit('tables', function(page) {
         }]
     };
 
-    $(document).ready(function() {
-        var myChart = echarts.init(document.getElementById('table_chart_front'));
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
+    var myChart = echarts.init(document.getElementById('table_chart_front'));
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
 
-        var myChart_cost = echarts.init(document.getElementById('table_chart_const'));
-        myChart_cost.setOption(option_cost);
-    });
+    var myChart_cost = echarts.init(document.getElementById('table_chart_const'));
+    myChart_cost.setOption(option_cost);
 
-
+    tables_chart_inited = true;
 });
 
-myApp.onPageInit('acitons-video', function(page) {
+myApp.onPageAfterAnimation('acitons-video', function(page) {
     plyr.setup();
 });
