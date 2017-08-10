@@ -238,15 +238,23 @@ myApp.onPageInit('photos', function(page) {
 myApp.onPageInit('files', function(page) {
 
     if (isWeixinBrowser()) {
-        myApp.addNotification({
-            title: '提示',
-            message: '您正在微信浏览器内'
-        });
+        // myApp.addNotification({
+        //     title: '提示',
+        //     message: '您正在微信浏览器内'
+        // });
 
-        $("#files_weixin_info").show();
+        // $("#files_weixin_info").show();
+
+        $(".weixin-tip").show();
     };
 
 });
+
+myApp.onPageBeforeRemove('files', function(page){
+
+    $(".weixin-tip").hide();
+});
+
 
 
 myApp.onPageInit('tables', function(page) {
