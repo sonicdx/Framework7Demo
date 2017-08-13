@@ -1356,6 +1356,7 @@ ul.features_list_detailed li .feat_small_details p {
 
 ul.features_list_detailed li .feat_small_details a {
     color: #fff;
+    text-decoration: underline;
 }
 
 ul.features_list_detailed li .feat_small_details h4 {
