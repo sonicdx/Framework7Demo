@@ -250,7 +250,7 @@ myApp.onPageInit('files', function(page) {
 
 });
 
-myApp.onPageBeforeRemove('files', function(page){
+myApp.onPageBeforeRemove('files', function(page) {
 
     $(".weixin-tip").hide();
 });
@@ -261,6 +261,16 @@ myApp.onPageInit('tables', function(page) {
 
 
 
+
+});
+
+myApp.onPageInit('features', function(page) {
+
+    var mySwiper = new Swiper('.swiper-container-features', {
+        preloadImages: false,
+        lazyLoading: true,
+        pagination: '.swiper-pagination-features'
+    })
 
 });
 
