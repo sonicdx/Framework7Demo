@@ -1223,7 +1223,6 @@ ul.features_list li {
     padding: 0 2% 20px 2%;
     margin: 0 0 20px 0;
     display: block;
-    width: 43%;
     float: left;
     font-size: 18px;
 }
@@ -1242,16 +1241,14 @@ ul.features_list li img {
     display: inline-block;
     width: 10%;
     float: left;
-    margin: 0px;
+    margin-right: 10px;
+    margin-bottom:10px;
     padding: 0px;
 }
 
 ul.features_list li span {
-    display: inline-block;
     max-width: 90%;
     padding: 2% 0 0 5%;
-    font-weight: 400;
-    float: left;
 }
 
 
@@ -3305,7 +3302,6 @@ ul.responsive_table li:first-child {
     }
     ul.features_list li span {
         padding: 2% 0 0 5%;
-        font-weight: 700;
     }
     ul.features_list_detailed li {
         width: 90%;
